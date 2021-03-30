@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    height: 156px;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+.container-fluid img{
+    margin-left: 5rem;
+}
+#top{
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+.p-5{
+    padding-left: 10rem;
+}
+.pt-5 h1{
+    font-size: 60px;
+}
+.pt-5 p{
+    font-size: 18px;
+}
+#top-bottom img{
+    margin-bottom: -2rem;
+    box-shadow: 0 5px 10px #999;
+    position: relative;
+}
+#aside{
+    margin-top: 15rem;
+}
+#aside p, #text p{
+    width: 30%;
+}
+#boxes .container i{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #EF2779;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    float: left;
+}
+#boxes p{
+    font-size: 18px;
+}
+#text{
+    margin-top: 10rem;
+}
+#heading{
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    color: #fff;
+}
+#heading input{
+    font-size: 18px;
+}
+#heading input::placeholder{
+    color: #000;
+}
+#heading-head .col-12 p{
+    width: 30%;
+}
+#body-top .font-weight-bold{
+    width: 63%;
+}
+#body-bottom .font-weight-bold{
+    width: 30%;
+}
+sup{
+    font-size: 30px;
+}
+sub{
+    font-size: 16px;
+}
+.col-lg-4 h1{
+    font-size: 80px;
+}
+#body-bottom .col-lg-4{
+    box-shadow: 0 10px 10px #e2e2e2;
+}
+#footer{
+    background: #252B42;
+}
+#footer input::placeholder{
+    color: #000;
+    font-weight: normal;
+}
